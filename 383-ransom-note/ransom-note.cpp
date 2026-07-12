@@ -11,3 +11,23 @@ public:
         } return true;
     }
 };
+
+// class Solution {
+// public:
+//     bool canConstruct(string rN, string ma) {
+//         int hash[26] = {0};
+
+//         for (int i = 0; i < ma.size(); i++) {
+//             hash[ma[i] - 'a']++;
+//         }
+
+//         for (int j = 0; j < rN.size(); j++) {
+//             hash[rN[j] - 'a']--;
+
+//             if (hash[rN[j] - 'a'] < 0)
+//                 return false;
+//         }
+
+//         return true;
+//     }
+// };
